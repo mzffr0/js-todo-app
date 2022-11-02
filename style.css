@@ -1,0 +1,51 @@
+*,
+*::before,
+*::after{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body{
+  height:100vh;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+input{
+  border:none;
+  outline:none;
+  border-radius:25px;
+  padding:6px;
+  margin-right:5px;
+}
+
+button{
+  padding:6px;
+  border:none;
+  background:blue;
+  color:white;
+  border-radius:8px;
+}
+
+
+.todo-container{
+  padding:16px;
+  border-radius:25px;
+  display: flex;
+  flex-direction:column;
+  background: lightblue;
+}
+
+.task{
+  margin-top:1vh;
+  display:flex;
+  flex-wrap:wrap;
+  flex-direction:row;
+  gap:5px;
+}
+
+.todo-task{
+  width:65%;
+}
